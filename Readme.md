@@ -16,6 +16,13 @@ In order to run a calculation, you will need a few things:
 * 15-Minute Interval Utility Data 
 * 15-Minute Interval Solar Production Data (Real or Simulated)
 
+## Assumptions
+
+* Non-residential customer with peak annual load less than or equal to 2MW
+* Effective Tariffs: Schedule DG-R (Grandfathered) 
+	* [Schedule DG-R](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_DG-R.pdf)
+	* [Schedule EECC-CPP-D](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_EECC-CPP-D.pdf)
+
 ## Running the tests
 
 The tool will allow you to specify any time period, as long as the interval data includes those dates. 
@@ -24,12 +31,6 @@ If the tool is being used to track an existing PPA with real consumption and pro
 
 Currently, the calculator takes approximately 1 minute to produce the final results. 
 
-## Assumptions
-
-* Non-residential customer with peak annual load less than or equal to 2MW
-* Effective Tariffs: Schedule DG-R (Grandfathered) 
-	* [Schedule DG-R](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_DG-R.pdf)
-	* [Schedule EECC-CPP-D](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_EECC-CPP-D.pdf)
 
 ## Calculator Inputs
 
@@ -59,12 +60,12 @@ A screenshot of the tool is provided below, followed by a description of each in
 ### PPA Rate
 * Enter the PPA Rate, in $/kWh, to be used in the calculation. All current City of San Diego PPAs do not have an escalator, and therefore it is assumed that there is no escalator in the calculation.
 ### Utility Rate Code
-* Select an applicable Utility Rate Code from the list. Currently only one rate code is supported, see Assumptions for more information.
-
+* Select an applicable Utility Rate Code from the list. Currently only one rate code is supported, see Assumptions below for more information.
 
 	
 ## Outputs
-
+A screenshot of the output table is provided below, followed by a description of each output.
+![enter image description here](https://github.com/bryanolson/PPACalculator/blob/master/PPA_table.png?raw=true)
 ### Solar Electricity Produced (kWh)
 * Aggregated electricity produced by solar system in provided date range, in kWh. 
 ### Utility Electricity Imported (kWh)
@@ -83,6 +84,11 @@ A screenshot of the tool is provided below, followed by a description of each in
 * Applied generation credit calculated by applying time-of-use tariff schedule against exported electricity produced by the solar system.
 ### Total Bill For Month ($)
 * Combined Electricity Cost, Demand Cost, NEM Solar Credit and PPA Cost described above.
+
+A screenshot of the output graph is provided below, followed by a brief description. 
+
+![enter image description here](https://github.com/bryanolson/PPACalculator/blob/master/PPA_graph.png?raw=true)
+
 ## Authors
 
 * **Hannah Peterson** 
