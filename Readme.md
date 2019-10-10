@@ -24,6 +24,13 @@ If the tool is being used to track an existing PPA with real consumption and pro
 
 Currently, the calculator takes approximately 1 minute to produce the final results. 
 
+## Assumptions
+
+* Non-residential customer with peak annual load less than or equal to 2MW
+* Effective Tariffs: Schedule DG-R (Grandfathered) 
+	* [Schedule DG-R](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_DG-R.pdf)
+	* [Schedule EECC-CPP-D](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_EECC-CPP-D.pdf)
+
 ## Calculator Inputs
 
 A screenshot of the tool is provided below, followed by a description of each input.
@@ -52,14 +59,9 @@ A screenshot of the tool is provided below, followed by a description of each in
 ### PPA Rate
 * Enter the PPA Rate, in $/kWh, to be used in the calculation. All current City of San Diego PPAs do not have an escalator, and therefore it is assumed that there is no escalator in the calculation.
 ### Utility Rate Code
-* Select an applicable Utility Rate Code from the list. Currently only one rate code is supported, see Assumptions below for more information.
+* Select an applicable Utility Rate Code from the list. Currently only one rate code is supported, see Assumptions for more information.
 
-## Assumptions
 
-* Non-residential customer with peak annual load less than or equal to 2MW
-* Effective Tariffs: Schedule DG-R (Grandfathered) 
-	* [Schedule DG-R](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_DG-R.pdf)
-	* [Schedule EECC-CPP-D](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_EECC-CPP-D.pdf)
 	
 ## Outputs
 
