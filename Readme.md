@@ -45,14 +45,14 @@ A screenshot of the tool is provided below, followed by a description of each in
 
 ### Holiday
 
-* If a holiday is within billing period, enter the date of the holiday in MM/DD/YYYY format. In the assumed tariff, a holiday is calculated with the entirety of the day billed in off-peak time-of-use .
+* If a holiday is within billing period, enter the date of the holiday in MM/DD/YYYY format (if there are multiple, separate with commas). In the assumed tariff, a holiday is calculated with the entirety of the day billed in off-peak time-of-use .
 
 ### Load Profile
 
 * 15-Minute load data is required. The format of the load data is shown in the screenshot below. The time period of the load profile is irrelevant, as long as the requested Start Date and End Date have data available. This data is currently assumed to be net-energy metered.
 
 ### Solar Production
-* 15-Minute load data is required. The format of the load data is shown in the screenshot below. The time period of the load profile is irrelevant, as long as the requested Start Date and End Date have data available.
+* 15-Minute load data is required. The format of the load data is shown in the screenshot below. The time period of the load profile is irrelevant, as long as it includes data occurring within the requested Start Date and End Date.
 
 ### Meter ID
 * The Load Profile requires a Meter ID. See screenshot above for an example.
@@ -83,11 +83,13 @@ A screenshot of the output table is provided below, followed by a description of
 ### NEM Solar Credit ($)
 * Applied generation credit calculated by applying time-of-use tariff schedule against exported electricity produced by the solar system.
 ### Total Bill For Month ($)
-* Combined Electricity Cost, Demand Cost, NEM Solar Credit and PPA Cost described above.
+* Combined Electricity Cost, Demand Cost, NEM Solar Credit and PPA Cost described above, without factoring in the State Surcharge Tax and State Regulatory, Public Purpose Programs, DWR Bond Charge and DWR Revenue Adjustment fees.
 
 A screenshot of the output graph is provided below, followed by a brief description. 
 
 ![enter image description here](https://github.com/bryanolson/PPACalculator/blob/master/PPA_graph.png?raw=true)
+
+Regions of the chart are shaded according to the billing rates associated with the source of the energy (solar or grid) and time of use (TOU) period.
 
 ## Authors
 
