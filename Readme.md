@@ -99,8 +99,6 @@ Regions of the chart are shaded according to the billing rates associated with t
 
 ## Features To Be Added
 
-* Automate Holidays
-* Additional Utility Rate Codes
 * SDG&E Specific Fees:
 	* State Surcharge Tax
 	* State Regulatory Fee
