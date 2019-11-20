@@ -21,7 +21,7 @@ In order to run a calculation, you will need the following:
 * Non-residential customer with peak annual load less than or equal to 2MW
 * Effective Tariffs: Schedule DG-R (Grandfathered) 
 	* [Schedule DG-R](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_DG-R.pdf)
-	* [Schedule AL-TOU2](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_AL-TOU2.pdf)
+	* [Schedule AL-TOU](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_AL-TOU.pdf)
 	* [Schedule EECC-CPP-D](http://regarchive.sdge.com/tm2/pdf/ELEC_ELEC-SCHEDS_EECC-CPP-D.pdf)
 	
 
