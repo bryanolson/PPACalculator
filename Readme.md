@@ -95,7 +95,7 @@ A screenshot of the output graph is provided below, followed by a brief descript
 Regions of the chart are shaded according to the billing rates associated with the source of the energy (solar or grid) and time of use (TOU) period.
 ## Authors
 
-* [Hannah Peterson]([https://github.com/hbpeters](https://github.com/hbpeters))
+* [Hannah Peterson](https://github.com/hbpeters)
 * [Bryan Olson](http://github.com/bryanolson)
 
 
